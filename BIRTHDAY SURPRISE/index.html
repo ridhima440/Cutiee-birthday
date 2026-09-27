@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For Gunnu Cutie ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+<!-- 🎵 BACKGROUND MUSIC -->
+
+<audio id="openingMusic" loop>
+    <source src="music/opening-song.mp3" type="audio/mpeg">
+</audio>
+
+<audio id="birthdayMusic" loop>
+    <source src="music/birthday-song.mp3" type="audio/mpeg">
+</audio>
+
+    <!-- BACKGROUND -->
+
+    <div class="stars"></div>
+
+    <div class="fairy-lights">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+
+    <!-- =========================
+         OPENING SCREEN
+    ========================== -->
+
+    <main class="container" id="homeScreen">
+
+        <div class="intro">
+
+            <p class="small-text">
+                Someone made something special for
+            </p>
+
+            <h1>
+                GUNNU CUTIE ♡
+            </h1>
+
+            <p class="subtitle">
+                because my childhood bestie deserves<br>
+                way more than just a "Happy Birthday" 🎂
+            </p>
+
+            <div class="cake">
+                🎂
+            </div>
+
+            <p class="made-by">
+                Made with lots of love by Ridhima ♡
+            </p>
+
+            <button id="startBtn">
+                OPEN YOUR SURPRISE ✨
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- =========================
+         BALLOON SCREEN
+    ========================== -->
+
+    <section id="balloonScreen" class="screen hidden">
+
+        <p class="small-text">
+            Okay... here's your first little surprise ♡
+        </p>
+
+        <h2>
+            Pop the balloons! 🎈
+        </h2>
+
+        <p class="instruction">
+            Tap each balloon to see what happens...
+        </p>
+
+        <div class="balloons">
+
+            <div class="balloon pink"
+                data-message="You are loved more than you know! 💗">
+                🎈
+            </div>
+
+            <div class="balloon purple"
+                data-message="I am forever grateful that life gave me you. 🥹❤️">
+                🎈
+            </div>
+
+            <div class="balloon blue"
+                data-message="Growing up with you is my favourite part of childhood. 🥹🤍">
+                🎈
+            </div>
+
+            <div class="balloon yellow"
+                data-message="You popped all the balloons… but there is still one more little surprise waiting for you. 👀🎀">
+                🎈
+            </div>
+
+        </div>
+
+        <p id="balloonMessage"></p>
+
+        <button id="memoryBtn" class="hidden">
+            OUR MEMORIES 📸
+        </button>
+
+    </section>
+
+
+    <!-- =========================
+         MEMORIES SCREEN
+    ========================== -->
+
+    <section id="memoryScreen" class="screen hidden">
+
+        <div class="memory-container">
+
+            <p class="small-text">
+                A little journey through us... 🥹❤️
+            </p>
+
+            <h2>
+                Our Memories 📸
+            </h2>
+
+            <div class="memory-card">
+
+                <img
+                    id="memoryImage"
+                    src="images/MEMORIES 11.jpeg"
+                    alt="Our Memory"
+                >
+
+                <p id="memoryCaption"></p>
+
+            </div>
+
+            <button id="nextMemoryBtn">
+                NEXT MEMORY → 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         LETTER / ENVELOPE SCREEN
+    ========================== -->
+
+    <section id="letterScreen" class="screen hidden">
+
+        <div class="envelope-wrapper">
+
+            <div class="envelope" id="envelope">
+
+                <div class="envelope-back"></div>
+
+                <div class="envelope-letter-preview">
+                    <span>💌</span>
+
+                    <p>
+                        A little letter<br>
+                        for you...
+                    </p>
+                </div>
+
+                <div class="envelope-flap"></div>
+
+                <div class="envelope-front">
+
+                    <div class="heart-seal">
+                        ♡
+                    </div>
+
+                    <p>
+                        For Gunnu Cutie
+                    </p>
+
+                    <small>
+                        Open me ♡
+                    </small>
+
+                </div>
+
+            </div>
+
+            <p class="envelope-hint">
+                Tap the envelope to open your letter 💌
+            </p>
+
+        </div>
+
+
+        <!-- =========================
+             ACTUAL LETTER
+        ========================== -->
+
+        <div class="letter" id="actualLetter">
+
+            <div class="flower">
+                🌷
+            </div>
+
+            <p class="letter-small">
+                A little letter for you...
+            </p>
+
+            <h2>
+                Happy Birthday, Gunnu Cutie ♡
+            </h2>
+
+            <p class="letter-text">
+
+Happy Birthday meri Gunnu Cutieee! 🥹❤️🎂
+
+First of all i want to say I LOVE YOU SO MUCHHH 🫶🏻
+Now its your special day bs thodi si ik koshish kri hai thoda extra special banane ki🥹
+I hope you will like it!!❤️
+
+Kabhi kabhi sochti hu na ki nursery se lekar school complete hone tak
+agar kisi ek insaan ka har phase mein mere saath hona fixed tha,
+toh woh tu thi. 🫶🏻
+Humne literally bachpan se lekar bade hone tak ka poora safar saath
+dekha hai — school ke din, pagalpan, fights, hasi-mazaak,
+choti-choti baatein, memories… sab kuch. 🥹❤️
+Aur shayad isi wajah se tu mere liye sirf meri best friend nahi hai,
+tu meri life ka woh part hai jise main kabhi alag karke dekh hi nahi sakti. 🫂❤️
+Beech mein humare beech misunderstanding bhi hui thi,
+thoda distance bhi aaya tha, but honestly uss phase ne mujhe ye
+aur zyada realize karaya ki humari dosti kitni important hai.
+Kyunki end mein humne sab sort kiya.
+Aur mujhe lagta hai uske baad humari bonding pehle se bhi
+zyada strong ho gayi. 🥹🧿
+
+Tu un kuch logon mein se hai jo mere "main theek hu" bolne par bhi
+samajh jaati hai ki main theek nahi hu. 😭❤️
+Mujhe tujhe kuch batane ki zarurat nahi padti,
+tu khud samajh jaati hai jab mere andar kuch chal raha hota hai.
+Aur sach bolu toh mujhe nahi lagta mujhe koi aur itna samajhta hai
+jitna tu samajhti hai. 🫶🏻
+Jab main bilkul okay nahi hoti, jab mera mood kharab hota hai,
+jab main khud explain nahi kar paati ki mujhe kya ho raha hai —
+tu somehow samajh jaati hai.
+And that means more to me than I can ever explain. ❤️
+School khatam ho gaya, college bhi alag ho gaye,
+life mein naye log aur naye phases aayenge…
+but I really hope ek cheez kabhi nahi badlegi —
+humari dosti. 🧿🤞🏻
+
+Thank you hamesha mere saath khade rehne ke liye,
+mujhe samajhne ke liye, meri bakwaas sunne ke liye,
+meri khushi mein khush hone ke liye aur jab main low hoti hu
+tab bina kahe mere saath rehne ke liye. 🥹❤️
+Bas meri ek hi wish hai ki tu hamesha khush rahe,
+tujhe life mein woh sab mile jo tu deserve karti hai,
+aur chahe hum kitne bhi busy ho jaayein,
+kitne bhi different phases mein chale jaayein,
+humari dosti kabhi "purani" na ho. 🫂❤️
+
+You know mein jyda bol nhi paati ye sb but aaj dil khol kr
+likha hai toh hasiyo mat. 😭
+baki words can never be enough for you. 🫶🏻
+From nursery wali choti si hum dono se lekar aaj tak…
+we've literally grown up together. 🥹🤍
+Aur abhi toh aur bohot saari memories banani baaki hain. 😭🫶🏻
+Happyyyy Birthdayyyy once again My cutieee patootiee! 🎂❤️🧿
+
+            </p>
+
+            <div class="signature">
+
+                Love you sooo much,
+                meri permanent person. 🫂❤️
+
+                <br><br>
+
+                — Ruhuuuu ♡
+
+            </div>
+
+        </div>
+
+
+        <button id="restartBtn">
+            READ IT AGAIN ♡
+        </button>
+
+    </section>
+
+
+    <!-- CONFETTI -->
+
+    <div id="confetti"></div>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
